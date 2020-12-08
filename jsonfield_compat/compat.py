@@ -9,7 +9,7 @@ except ImportError:  # pragma: no cover
     NativeJSONField = object
 
 from django.conf import settings
-from django.utils import six
+import six
 from django.utils.module_loading import import_string
 from psycopg2.extras import Json
 
